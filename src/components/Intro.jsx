@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
+import profpic from "../assets/arjunShastry.jpg";
 
 const Intro = () => {
 
@@ -43,11 +44,11 @@ const Intro = () => {
                 </div>
                 <div class='w-full lg:w-1/2 lg:p-8'>
                     <div class='flex justify-center'>
-                        <motion.img
+                        <motion.img class='rounded-xl max-w-md'
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ delay: 0.5, duration: 1 }}
-                            src='https://placehold.co/400x400' alt='Arjun Shastry' />
+                            src={profpic} alt='Arjun Shastry' />
                     </div>
                 </div>
             </div>

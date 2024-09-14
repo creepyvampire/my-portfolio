@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion';
+import aboutPic from "../assets/about.jpg";
 
 const About = () => {
 
@@ -16,7 +17,7 @@ const About = () => {
                     transition={{duration:1,delay:0.5}}
                     class='w-full lg:w-1/2 lg:p-8'>
                         <div class='flex items-center justify-center'>
-                            <img class='rounded' src='https://placehold.co/400x400' alt='About'></img>
+                            <img class='max-w-sm rounded' src={aboutPic} alt='About'></img>
                         </div>
                     </motion.div>
                     <motion.div
