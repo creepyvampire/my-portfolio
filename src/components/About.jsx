@@ -4,7 +4,7 @@ import aboutPic from "../assets/about.jpg";
 
 const About = () => {
 
-    const aboutText = "I’m Arjun Shastry, a dedicated Computer Science student with a passion for technology and innovation. My journey began with a deep interest in tech, which has evolved into a strong focus on web and app development, AI, and IoT. I have participated in various hackathons. I pride myself on being a strong team player with excellent interpersonal skills, adaptability, and leadership qualities. Outside of my professional life, I enjoy trekking, video games, and learning guitar."
+    const aboutText = "I’m Arjun Shastry, a dedicated Software Engineer with a passion for technology and innovation. My journey began with a deep interest in tech, which has evolved into a strong focus on software development in the UAV and autonomous systems domain. I pride myself on being a strong team player with excellent interpersonal skills, adaptability, and leadership qualities. Outside of my professional life, I enjoy trekking, video games, and learning guitar."
 
     return (
         <>

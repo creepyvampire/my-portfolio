@@ -17,7 +17,7 @@ const Intro = () => {
     });
 
     const intrPara =
-        "A committed computer science student and web developer with experience building dynamic applications using technologies including but not limited to React, Next.js and MERN stack. My work includes real-time geospatial analysis tools, dynamic web and mobile applications. I focus on creating innovative, scalable solutions that merge practical functionality with cutting-edge technology."
+"A versatile Software Engineer who bridges the gap between complex hardware systems and modern web applications. My experience spans the entire stack—from architecting MAVLink protocols for drones to building AI-powered platforms using Next.js and React. With a background in defense R&D (TASL) and Full Stack development, I combine deep technical expertise in embedded systems with the ability to create scalable, user-centric web solutions."
     return (
         <div class='border-b border-neutral-900 p-4 lg:mb-36'>
             <div class='flex flex-wrap'>
@@ -33,7 +33,7 @@ const Intro = () => {
                             initial='hidden'
                             animate='show'
                             class='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>
-                            Full Stack Developer
+                            Software Engineer
                         </motion.span>
                         <motion.p
                             variants={container(1)}
